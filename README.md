@@ -53,7 +53,7 @@ Algoritmo Promedio_5_materias
 Fin del Algoritmo
 
 
-![Diagrama de Flujo](IMAGENES/pseint 1.png)
+![Diagrama de Flujo](IMAGENES/pseint%201.png)
 
 
 
