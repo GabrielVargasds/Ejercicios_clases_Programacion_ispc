@@ -56,4 +56,40 @@ Fin del Algoritmo
 ![Diagrama de Flujo](IMAGENES/pseint%201.png)
 
 
+#Ejercicio 2
+
+### 1)- **Analisis del problema**:
+
+Un pintor de casas debe hacer un presupuesto para un cliente. Lo que cobra se calcula de acuerdo a los metros cuadrados que debe pintar. El cliente le indica que necesita conocer el costo de mano de obra para pintar una pared rectangular de un galpón. El pintor cobra un monto fijo por cada metro cuadrado.
+
+**Datos a ingresar:** 
+•	Alto y ancho de a pared
+•	Precio que cobra por metro cuadrado
+
+**Proceso:** 
+Debo calcular la superficie de la pared y multiplicarlo por el precio de la mano de obra por metro cuadrado
+
+**Datos de salida:** el precio de la mano de obra.
+
+
+
+### 2) – PSeudocódigo 
+
+1)	**Declarar variables:**
+Alto = valor int
+
+Ancho = valor int
+
+Precio_metro_cuadrado = valor int (para redondear usamos valores enteros)
+
+3)	**Ingreso Alto**
+4)	**Ingreso Ancho**
+5)	**Ingreso Precio_metro_cuadrado**
+6)	**Calculo:**  Alto *Ancho * Precio_metro_cuadrado
+7)	**Mostrar Calculo**
+
+### 3)	Diagrama de flujo
+
+
+![Diagrama de flujo](IMAGENES/Ejercicio2.png)
 
