@@ -250,11 +250,11 @@ se muestran solo los números pares hasta el ingresado.
 * 2)Generar secuencia de pares desde el cero
 * 3)Mostrar números
 
-# Solicitar al usuario un número
+#Solicitar al usuario un número
 
 numero_ingresado2 = int(input("Ingrese un número entero: "))
 
-# Utilizar un bucle for para mostrar los números pares desde 0 hasta el número ingresado
+#Utilizar un bucle for para mostrar los números pares desde 0 hasta el número ingresado
 
 for i in range(0, numero_ingresado2 + 1):
 
@@ -262,6 +262,6 @@ for i in range(0, numero_ingresado2 + 1):
     
         print(i)
 
-
+![Diagrama de Flujo](IMAGENES/itera2.png)
 
 
