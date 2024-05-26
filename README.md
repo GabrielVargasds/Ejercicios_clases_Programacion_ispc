@@ -187,3 +187,40 @@ Cambio = pesos/valor_dolar
 print("El monto equivalente en dolares es", Cambio)
 
 ![Diagrama de Flujo](IMAGENES/py.Cambio.png)
+
+
+# Estructuras Iterativas.
+### Ejercicio 1
+**Analisis:**
+Mostrar los números desde el 0 al número solicitado al usuario (input)
+
+**Datos de entrada:**
+
+Numero ingresado = dato entero variable
+
+**Proceso:**
+
+Generar secuencia de números desde el cero hasta el ingresado 
+
+**Salida:**
+
+Muestra secuencia de números
+
+**Pseudocodigo:**
+
+* 1)Ingresar numero
+* 2)Generar secuencia desde el cero
+* 3)Mostrar números
+**Programa en Python**
+  
+#Solicitar al usuario un número
+
+numeroIngresado = int(input("Ingrese un número: ")) #Convertimos el dato ingresado a entero
+
+#Utilizar un bucle for para mostrar los números desde 0 hasta el número ingresado
+
+for i in range(numeroIngresado + 1):
+
+    print(i) #Mostramos la secuencia
+
+
