@@ -293,11 +293,16 @@ Nombres ingresados
 clave = "fin"
 
 #Solicitamos nombres de personas hasta que se ingrese "fin"
+
 while True:
+
     nombre_ingresado = input("Ingrese el nombre de una persona (o 'fin' para terminar): ")
+    
     if nombre_ingresado.lower() == clave:
+    
         break
+	
     print(nombre_ingresado)
 
 
-
+![Diagrama de Flujo](IMAGENES/itera3.png)
