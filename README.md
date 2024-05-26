@@ -134,3 +134,33 @@ El total de puntos por equipo elegido.
 
 
 ![Diagrama de flujo](IMAGENES/Ejercicio3.png)
+
+
+# Desafio Casa de Cambio
+
+**Analisis:**
+se necesita un programa que convierta un monto en pesos argentinos a dólares. El tipo de cambio utilizado es $890 pesos argentinos por 1 dólar.
+
+**Datos de entrada:**
+
+Variables:
+
+•	Monto en pesos = dato tipo float
+
+* Constantes: valor del dólar en pesos = dato tipo float
+  
+**Proceso:** 
+* Ingresar monto en pesos 
+* Calcular cambio: Monto en pesos / valor dólar
+* Presentar resultados
+**Datos de salida:**
+   monto equivalente en dólares, dato float
+
+**Pseudocodigo**
+1)	Declarar variables, monto en pesos
+2)	Declara constantes
+3)Ingresar monto en pesos
+4)Calcular cambio
+
+
+
