@@ -250,6 +250,8 @@ se muestran solo los números pares hasta el ingresado.
 * 2)Generar secuencia de pares desde el cero
 * 3)Mostrar números
 
+**Programa en python**
+
 #Solicitar al usuario un número
 
 numero_ingresado2 = int(input("Ingrese un número entero: "))
@@ -263,5 +265,39 @@ for i in range(0, numero_ingresado2 + 1):
         print(i)
 
 ![Diagrama de Flujo](IMAGENES/itera2.png)
+
+# Ejercicio 3
+
+
+**Análisis:** 
+Solicitar que se ingrese nombres de usuario hasta que se ingresa la palabra fin.
+
+**Datos de entrada;**
+Variables tipo string 
+
+Constante = string con el valor ¨fin¨
+
+**Salida:**
+Nombres ingresados
+
+**Pseudocódigo**
+
+* 1)Determinamos la constante fin
+* 2)Se solicita que se ingresen nombres
+* 3)Se evaluan los nombres y se muestran hasta que se obtiene la palabra fin
+* 4)Se muestran los nombres o se finaliza el programa
+
+**Programa en Python**
+
+#Determino la constante
+clave = "fin"
+
+#Solicitamos nombres de personas hasta que se ingrese "fin"
+while True:
+    nombre_ingresado = input("Ingrese el nombre de una persona (o 'fin' para terminar): ")
+    if nombre_ingresado.lower() == clave:
+        break
+    print(nombre_ingresado)
+
 
 
