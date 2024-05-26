@@ -226,3 +226,42 @@ for i in range(numeroIngresado + 1):
 
 ![Diagrama de flujo](IMAGENES/itera1.png)
 
+
+## Ejercicio 2:
+**Analisis:** 
+
+Queremos mostrar sólo los números pares desde el cero hasta el número que se ingresa
+
+**Datos de entrada:**
+
+Numero ingresado = dato entero variable
+
+**Proceso:**
+
+Generar secuencia de números pares desde el cero hasta el ingresado 
+
+**Salida:**
+
+se muestran solo los números pares hasta el ingresado.
+
+**Pseudocodigo:**
+
+* 1)Ingresar numero
+* 2)Generar secuencia de pares desde el cero
+* 3)Mostrar números
+
+# Solicitar al usuario un número
+
+numero_ingresado2 = int(input("Ingrese un número entero: "))
+
+# Utilizar un bucle for para mostrar los números pares desde 0 hasta el número ingresado
+
+for i in range(0, numero_ingresado2 + 1):
+
+    if i % 2 == 0: #Si la division es cero se agrega a la muestra
+    
+        print(i)
+
+
+
+
