@@ -351,3 +351,4 @@ print("Los nombres unicos ingresados son: ")
 for tu_nombre in mis_nombres:
     print(tu_nombre)
 
+![Diagrama de Flujo](IMAGENES/nombres1.png)
