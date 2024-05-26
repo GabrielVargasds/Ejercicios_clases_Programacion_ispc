@@ -211,6 +211,7 @@ Muestra secuencia de números
 * 1)Ingresar numero
 * 2)Generar secuencia desde el cero
 * 3)Mostrar números
+  
 **Programa en Python**
   
 #Solicitar al usuario un número
@@ -223,4 +224,5 @@ for i in range(numeroIngresado + 1):
 
     print(i) #Mostramos la secuencia
 
+![Diagrama de flujo](IMAGENES/itera1.png)
 
