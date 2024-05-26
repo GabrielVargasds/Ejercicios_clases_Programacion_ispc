@@ -306,3 +306,48 @@ while True:
 
 
 ![Diagrama de Flujo](IMAGENES/itera3.png)
+
+# EJERCICIOS DE ESTRUCTURA DE DATOS
+Desarrollar en Python las siguientes consignas utilizando los recursos ya vistos (variables, input, print, if, if - else, while, for) que consideren adecuados para cada uno de estos casos:
+
+* 1.	Pedir al usuario que ingrese 10 nombres de personas (input en un ciclo) no repetidas, guardarlos en una lista y mostrarlos. 
+* 2.	Eliminar la tercer y la última persona de la lista del ejercicio 1, luego ordenar la lista y mostrarlo
+* 3.	Guardar en un diccionario los datos de una persona: nombre, apellido, dni, email, fecha de nacimiento.
+* 4.	En un nuevo diccionario llamado familia guardar 4 personas, cada una de ellas con los mismos 5 datos (nombre, apellido, dni, email, fecha de nacimiento)
+* 5.	Guardar en una tupla los primeros n números pares. El valor de n que lo ingrese el usuario (input). Luego mostrar los datos de la tupla.
+     
+ Nota: para saber si el número i es par hacer i % 2 == 0
+
+ ## Programa en python
+
+#Utilizo una lista vacia llamada mis_nombres para ir agregandolos dentro
+
+mis_nombres = []
+
+#Utilizo el bucle while (mientras) para ingresar nombres siembre que la cantidad ingresada sea menor a 10
+
+while len(mis_nombres) < 10: # con len cuento la cantidad de nombres 
+    
+    #Empiezo a ingresar los nombres con input y uso strip para eliminar espacios en blanco alrededor de la palabra
+    
+    tu_nombre = input("Por favor ingrese un nombre: ").strip()
+    
+    #Verifico que no haya repetidos, si cumple con la condicion no se muestra
+    
+    if tu_nombre in mis_nombres:
+        
+        print("El nombre ingreasdo está repetido, ingresa otro ")
+        
+    else:
+    
+        mis_nombres.append(tu_nombre) #De otro modo el nombre se agrega a la lista usando .append
+        
+#Mostramos la lista
+
+print("Los nombres unicos ingresados son: ")
+
+#Recorro con un bucle for los nombres de la lista y los voy mostrando
+
+for tu_nombre in mis_nombres:
+    print(tu_nombre)
+
