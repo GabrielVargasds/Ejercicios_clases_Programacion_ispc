@@ -186,4 +186,4 @@ Cambio = pesos/valor_dolar
 
 print("El monto equivalente en dolares es", Cambio)
 
-![Diagrama de Flujo](IMAGENES/CasaCAMBIO.png)
+![Diagrama de Flujo](IMAGENES/py.Cambio.png)
