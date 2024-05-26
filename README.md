@@ -163,4 +163,27 @@ Variables:
 4)Calcular cambio
 
 
+Diagrama de Flujo
 
+![Diagrama de Flujo](IMAGENES/CasaCAMBIO.png)
+
+
+**Código en Python**
+
+#Declaro el valor del dolar en pesos argentinos
+
+valor_dolar = 890
+
+#Solicito que se ingrese el valor en pesos del que deseo conocer su cambio
+
+pesos = float(input("Ingrese el monto en pesos argentinos, usando números: "))
+
+#Calculo el equivalente en dólares
+
+Cambio = pesos/valor_dolar
+
+#Mostrar el cambio equivalente
+
+print("El monto equivalente en dolares es", Cambio)
+
+![Diagrama de Flujo](IMAGENES/CasaCAMBIO.png)
