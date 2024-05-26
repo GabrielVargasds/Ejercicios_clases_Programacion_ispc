@@ -55,9 +55,8 @@ Fin del Algoritmo
 
 ![Diagrama de Flujo](IMAGENES/pseint%201.png)
 
-
-#Ejercicio 2
-
+# Ejercicio 2
+ 
 ### 1)- **Analisis del problema**:
 
 Un pintor de casas debe hacer un presupuesto para un cliente. Lo que cobra se calcula de acuerdo a los metros cuadrados que debe pintar. El cliente le indica que necesita conocer el costo de mano de obra para pintar una pared rectangular de un galpón. El pintor cobra un monto fijo por cada metro cuadrado.
@@ -93,3 +92,45 @@ Precio_metro_cuadrado = valor int (para redondear usamos valores enteros)
 
 ![Diagrama de flujo](IMAGENES/Ejercicio2.png)
 
+
+
+# Ejercicio 3
+
+**Analisis:**
+Un hincha de fútbol desea conocer la cantidad de puntos que su equipo lleva acumulados en el campeonato, para ello recibe cada semana la información de la cantidad total de partidos, desde el inicio del campeonato, que el equipo ha perdido, ha empatado y ha ganado. Por cada partido empatado recibe un punto, por cada partido ganado tres puntos y por los perdidos cero puntos.
+Datos de entrada:
+
+•	Partidos ganados, empatados y perdidos // datos enteros variables
+•	Nombre del equipo de futbol // dato string
+•	Constantes:
+ * puntos de partidos ganados = 3 // dato entero
+   
+* puntos partidos empatados = 1 // dato entero
+  
+* puntos partidos perdidos = 0 // dato entero
+  
+**Proceso:** 
+Debo elegir un equipo y sumar el total de partidos ganados multiplicado por la cantidad de puntos correspondientes y del mismo modo sumarle los partidos empatados y perdidos.
+
+**Salida:**
+El total de puntos por equipo elegido. 
+
+
+### Pseudocódigo
+1)	Declarar variables:
+* Pganados = int 
+* Pempatados = int
+* Pperdidos = int
+
+2)	Declaro constantes
+* Gana = 3
+* Empata = 1
+* Pierde = 0
+
+3)	Realizo calculo de puntos
+* Resultado = (Pganados*gana + Pempatados*empata + Pperdidos*pierde)
+  
+4)	Muestro resultados
+
+
+![Diagrama de flujo](IMAGENES/Ejercicio3.png)
