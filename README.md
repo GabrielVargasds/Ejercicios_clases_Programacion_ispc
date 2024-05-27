@@ -485,4 +485,9 @@ for key, value in familia.items():
     print("\n")
 
 
+![Diagrama de Flujo](IMAGENES/dic2.png)
+
+
+![Diagrama de Flujo](IMAGENES/dic2b.png)
+
 
