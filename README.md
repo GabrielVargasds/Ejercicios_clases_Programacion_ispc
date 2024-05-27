@@ -378,4 +378,4 @@ for tu_nombre in mis_nombres:
 
     print(tu_nombre)
 
-
+![Diagrama de Flujo](IMAGENES/nombres2.png)
