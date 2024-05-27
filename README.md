@@ -379,3 +379,41 @@ for tu_nombre in mis_nombres:
     print(tu_nombre)
 
 ![Diagrama de Flujo](IMAGENES/nombres2.png)
+
+# Ejercicio 3
+
+#Pido los datos de una persona y elimino los espacios en blanco con strip
+
+nombre = input("Ingresa el nombre: ").strip()
+
+apellido = input("Ingresa el apellido: ").strip()
+
+dni = input("Ingresa el DNI: ").strip()
+
+email = input("Ingresa el email: ").strip()
+
+fecha_nacimiento = input("Ingresa la fecha de nacimiento respetando la forma (dia/mes/año): ").strip()
+
+#Guardamos los datos en un diccionario llamado persona
+
+persona = {
+    "nombre": nombre,
+    
+    "apellido": apellido,
+    
+    "dni": dni,
+    
+    "email": email,
+    
+    "fecha_nacimiento": fecha_nacimiento
+}
+
+#Mostramos el diccionario iterandon la clave y el valor con .items() y usando el ciclo for
+
+print("Datos de la persona:")
+
+for key, value in persona.items():
+
+    print(f"{key}: {value}")
+    
+![Diagrama de Flujo](IMAGENES/dic1.png)
