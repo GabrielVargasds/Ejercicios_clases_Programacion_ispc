@@ -417,3 +417,72 @@ for key, value in persona.items():
     print(f"{key}: {value}")
     
 ![Diagrama de Flujo](IMAGENES/dic1.png)
+
+
+
+
+
+# Ejercicio 4
+
+#Inicializo un diccinario vacio
+
+familia = {}
+
+#Itero sobre cada numero del rango que va del 1 al 4 usando el ciclo for 
+
+for i in range(1, 5): #uso i como un contador para no repetir mas de 4 veces la carga de datos
+
+    print(f"Ingrese los datos de la persona {i}:")
+    
+    nombre = input("Ingrese el nombre: ").strip()
+    
+    apellido = input("Ingrese el apellido: ").strip()
+    
+    dni = input("Ingrese el DNI: ").strip()
+    
+    email = input("Ingrese el email: ").strip()
+    
+    fecha_nacimiento = input("Ingrese la fecha de nacimiento (DD/MM/AAAA): ").strip()
+    
+    persona = {
+    
+        "nombre": nombre,
+	
+        "apellido": apellido,
+	
+        "dni": dni,
+	
+        "email": email,
+	
+        "fecha_nacimiento": fecha_nacimiento
+    }
+    
+    # Agrego la persona al diccionario familia que estaba vacio
+    
+    familia[f"persona_{i}"] = persona
+
+    # Agrego una línea en blanco para separar los diccionarios
+    
+    print("\n")
+
+#Muestro el diccionario familia
+
+print("Los datos de la familia son los siguientes: ")
+
+#Recorro con un ciclo for las claves y valores del diccionario en el diccionario familia
+
+for key, value in familia.items():
+    
+    print(f"{key}:")
+    
+    
+    for sub_key, sub_value in value.items(): #uso un ciclo for anidado para recorrer los datos del diccionario persona
+    
+        print(f"  {sub_key}: {sub_value}")
+        
+    # Agrego espacio en blanco para separar
+    
+    print("\n")
+
+
+
