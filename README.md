@@ -318,7 +318,12 @@ Desarrollar en Python las siguientes consignas utilizando los recursos ya vistos
      
  Nota: para saber si el número i es par hacer i % 2 == 0
 
- ## Programa en python
+
+# Ejercicio 1
+
+ **Pedir al usuario que ingrese 10 nombres de personas (input en un ciclo) no repetidas, guardarlos en una lista y mostrarlos**
+
+ **Programa en python**
 
 #Utilizo una lista vacia llamada mis_nombres para ir agregandolos dentro
 
@@ -356,6 +361,8 @@ for tu_nombre in mis_nombres:
 
 # Ejercicio 2
 
+**Eliminar la tercer y la última persona de la lista del ejercicio 1, luego ordenar la lista y mostrarlo**
+
 **Programa en python**
 
 #Eliminamos la tercer persona la cual es la 2 ya que se cuenta desde cero
@@ -380,7 +387,11 @@ for tu_nombre in mis_nombres:
 
 ![Diagrama de Flujo](IMAGENES/nombres2.png)
 
+
+
 # Ejercicio 3
+
+**Guardar en un diccionario los datos de una persona: nombre, apellido, dni, email, fecha de nacimiento.**
 
 #Pido los datos de una persona y elimino los espacios en blanco con strip
 
@@ -423,6 +434,8 @@ for key, value in persona.items():
 
 
 # Ejercicio 4
+
+**En un nuevo diccionario llamado familia guardar 4 personas, cada una de ellas con los mismos 5 datos (nombre, apellido, dni, email, fecha de nacimiento)**
 
 #Inicializo un diccinario vacio
 
@@ -490,4 +503,29 @@ for key, value in familia.items():
 
 ![Diagrama de Flujo](IMAGENES/dic2b.png)
 
+# Ejercicio 5
+
+**Guardar en una tupla los primeros n números pares. El valor de n que lo ingrese el usuario (input). Luego mostrar los datos de la tupla.**
+
+#Pido ingresar el valor de n, es decir la cantidad de numeros pares que queremos ver
+
+n = int(input("Ingresa el valor de n, la cantidad de numeros pares a ver: "))
+
+#Genero los primeros n números pares multiplicando por 2 cada numero i
+
+#creando un rango que va desde 0 hasta n-1, y convirtiendo en tupla
+
+numeros_pares = tuple(i * 2 for i in range(n)) 
+
+#Muestro los números pares
+
+print("Los primeros", n, "números pares son:")
+
+#Recorro los numeros pares y los imprimo
+
+for numero in numeros_pares:
+
+    print(numero)
+
+![Diagrama de Flujo](IMAGENES/tupla.png)
 
