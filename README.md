@@ -352,3 +352,30 @@ for tu_nombre in mis_nombres:
     print(tu_nombre)
 
 ![Diagrama de Flujo](IMAGENES/nombres1.png)
+
+
+# Ejercicio 2
+
+**Programa en python**
+
+#Eliminamos la tercer persona la cual es la 2 ya que se cuenta desde cero
+
+mis_nombres.pop(2) #utilizo pop para eliminar en la ubicacion 2
+
+#Elimino con pop el ultimo elemento
+
+mis_nombres.pop()
+
+#Ordeno la lista alfabeticamente con sort
+mis_nombres.sort()
+
+#Mostramos la lista ordenada
+print("La siguiete lista es la ordenada luego de eliminar el ultimo nombre y el segundo: ")
+
+#Recorro los nombres en la lista mis_nombres que quedaron y los presento
+
+for tu_nombre in mis_nombres:
+
+    print(tu_nombre)
+
+
